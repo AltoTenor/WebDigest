@@ -1,7 +1,6 @@
 # WebDigest
 # Q&A Browser Extension - WebPage Chat
 
-![Extension Logo](extension_logo.png)
 
 The Q&A Browser Extension - WebPage Chat is an innovative tool that enables you to answer questions directly from web pages. With an average limit of 5000 words per web page, you can provide comprehensive and detailed responses. The extension also includes a history of chat feature, allowing you to revisit previous conversations for reference.
 
