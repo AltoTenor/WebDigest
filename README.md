@@ -1,5 +1,5 @@
 
-![Logo](banner.png)
+![Logo](chandu.png)
 
 
 # PageQuery
