@@ -1,5 +1,5 @@
 
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+![Logo](banner.png)
 
 
 # PageQuery
@@ -25,6 +25,9 @@ The Q&A Browser Extension - PageQuery is an innovative tool that enables you to 
 
 **Design and Reference:** Figma, Dribble
 
+## Screenshot
 
+![image 1](im1.jpg)
+![image 2](im2.jpg)
 
 
