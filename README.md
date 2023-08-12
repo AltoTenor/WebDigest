@@ -6,7 +6,7 @@ The Q&A Browser Extension - PageQuery is an innovative tool that enables you to 
 
 ## Features
 
-- **Answer Questions:** Seamlessly provide answers to questions found on web pages. Your responses can be up to 5000 words in length, ensuring thorough explanations.
+- **Answer Questions:** Seamlessly provide answers to questions found on web pages. Your responses can be up to 500 words in length, ensuring thorough explanations.
 
 - **Chat History:** The extension maintains a chat history, allowing you to review past conversations, answers, and interactions. This feature enhances your ability to engage with users and maintain context.
 
@@ -14,9 +14,9 @@ The Q&A Browser Extension - PageQuery is an innovative tool that enables you to 
 
 ## Tech Stack
 
-**Client:** Angular, HTML, CSS, JavaScript
+**Client:** AngularJS, HTML, CSS, JavaScript
 
-**Server:** Django, Python
+**Server:** Flask, Python
 
 **Model:** Pretrained LLM transformer model flan-t5
 
