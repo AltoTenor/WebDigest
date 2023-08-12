@@ -1,0 +1,103 @@
+.container {
+    padding : 29px 13px;
+    .title {
+        font-size: 27px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .chat-window {
+        display : flex;
+        width : 100%;
+        flex-direction : column;
+        height : 290px;
+        overflow: auto;
+        scrollbar-gutter : auto;
+        .message {
+            margin : 10px 0;
+            border-radius : 12px;
+            max-width: 90%; 
+            padding : 14px 18px;
+            &.user {
+                align-self: start;
+                background-color: #403E3E;
+                color : white;
+            }
+            
+            &.bot {
+                align-self: end;
+                background-color: #CDCDCD;
+                color : #000;
+            }
+        }
+        .dots {
+            align-self: end;
+            margin : 5px 0px;
+            padding : 5px;
+            display: flex;
+            gap : 3px;
+            .dot {    
+                color : #403E3E;
+                animation: jump 750ms infinite;
+                -webkit-animation: jump;
+                -webkit-animation-duration: 750ms;
+                -webkit-animation-iteration-count: infinite;
+                animation-delay : calc(100ms * var(--delay));
+                -webkit-animation-delay: calc(100ms * var(--delay));
+                .actual-dot {
+                    height: 10px;
+                    width: 10px;
+                    background-color: #bbb;
+                    border-radius: 50%;
+                    display: inline-block;
+                }
+            }
+        }
+    }
+
+    .empty-chat {
+        display : flex;
+        width : 100%;
+        flex-direction : column;
+        height : 290px;
+        overflow: auto;
+        scrollbar-gutter : stable;
+        display : flex;
+        align-items: center;
+        justify-content: center;
+
+        .image {
+            opacity : 0.3;
+            transform: scale(2);
+        }
+    }
+    
+    .take-input {
+        text-align: center;
+        margin : 5px 0;
+        .input-field {
+            width: 454px;
+            height: 40px;
+            background-color: #222;
+            color : #fff;
+            padding : 10px 13px;
+            border-radius : 12px;
+            font-family: 'IBM Plex Mono', monospace;
+            font-weight: 400;
+        }
+    }
+}
+::placeholder {
+    color : #fff;
+}
+
+@keyframes jump {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(20%);
+    }
+    
+}

@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="title">
+        Page Query <i class="fa-solid fa-circle"></i>
+    </div>
+    <hr>
+    <div class="chat-window" *ngIf="messages.length"  #chatWindow>
+        <div *ngFor="let message of messages" [class]="'message ' + message.user">
+            {{ message.content }}
+        </div>
+        <div class="dots" *ngIf="messageSent">
+            <span *ngFor="let i of [1, 2, 3]" class="dot" style="--delay : {{i}}"> <i class="actual-dot"></i> </span>
+        </div>
+    </div>
+    <div class="empty-chat" *ngIf="!messages.length">
+        <img class="image" src="/assets/icons8-search-in-browser-100.png" width="100px" />
+    </div>
+    <form class="take-input" [formGroup]="inputForm" (ngSubmit)="onSubmit()">
+        <input class="input-field" type="text" [placeholder]="messages.length ? 'Next question please!' : 'Ask me a question...'" formControlName="inputText"/>
+    </form>
+</div>
