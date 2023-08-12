@@ -1,0 +1,14 @@
+{    
+    "name": "PageQuery",
+    "version": "2.0",
+    "description": "The Q&A Browser Extension - PageQuery is an innovative tool that enables you to answer questions directly from web pages. With an average limit of 5000 words per web page, you can provide comprehensive and detailed responses. The extension also includes a history of chat feature, allowing you to revisit previous conversations for reference.",
+    "manifest_version": 3,
+    "action": {
+        "default_icon": "assets/logo.png",
+        "default_popup": "index.html"
+    },
+    "permissions" : [
+        "tabs",
+        "activeTab"
+    ]
+}
