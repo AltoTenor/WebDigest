@@ -3,6 +3,7 @@
 # Table of contents
 - [Built with](#built-with)
 - [Installation](#installation)
+- [Usage](#usage)
 - [Useful resources](#useful-resources)
 - [Authors](#authors)
 
@@ -19,7 +20,7 @@
 ```
 - Navigate to project directory
 ```bash
-    cd ./WebDigest/backendCode/
+    cd ./WebDigest/backendFinalBuild_flask/
 ```
 - Install requried dependancies
 ```bash
@@ -27,7 +28,37 @@
 ```
 - run code in localhost using 
 ```bash
-    python run app.py
+    python app.py
+```
+
+## Usage 
+- python
+```python
+    import requests
+    postData = {'question' : "<your question here>", 'url' : "<target website url>"}
+    apiData = requests.post('http://localhost:8000/question', json = postData)
+    answer = apiData['answer']
+```
+- curl
+```bash
+    curl -X POST -H "Content-Type: application/json" -d '{
+    "question": "<your question here>",
+    "url": "<target website url>"
+    }' http://localhost:8000/question
+
+```
+
+- javascript
+```javascript
+    let answer;
+    const getAnswer = async () => {
+        const postData = {question : "<your question here>", url : "<target website url>"};
+        const apiData = await fetch('http://localhost:8000/question', { method : 'POST', body : JSON.stringify(postData)});
+        
+        answer = apiData.json()['answer']
+    }
+
+    getAnswer();
 ```
 
 
