@@ -14,7 +14,7 @@
 
 
 ## Overview
-The Q&A Browser Extension - PageQuery is an innovative tool that enables you to answer questions directly from web pages. With an average limit of 5000 words per web page, you can provide comprehensive and detailed responses. The extension also includes a history of chat feature, allowing you to revisit previous conversations for reference.
+The Q&A Browser Extension - PageQuery is an innovative tool that enables you to answer questions directly from web pages. With an average limit of 5000 words per web page, you can provide comprehensive and detailed responses. The extension also includes a history of the chat feature, allowing you to revisit previous conversations for reference.
 
 
 ## Links
@@ -26,18 +26,18 @@ The Q&A Browser Extension - PageQuery is an innovative tool that enables you to 
 
 
 ## Features
-- **Answer Questions:** Seamlessly provide answers to questions found on web pages. Your responses can be up to 500 words in length, ensuring thorough explanations.
+- **Answer Questions:** Seamlessly provide answers to questions found on web pages. Your responses can be up to 500 words long, ensuring thorough explanations.
 
 - **Chat History:** The extension maintains a chat history, allowing you to review past conversations, answers, and interactions. This feature enhances your ability to engage with users and maintain context.
 
 - **Enhanced User Experience:** Customize your interactions and user experience by adding your own features to the extension. Innovate and tailor the tool to your specific needs.
 
-- **Completely Open Source:** Both our backend and frontend solutions are separate and open source, allowing anyone to create their own UI for our API service, or their own API service for our chrome extension UI, and seemlessly connect them as need be.
+- **Completely Open Source:** Both our backend and frontend solutions are separate and open source, allowing anyone to create their own UI for our API service, or their own API service for our Chrome extension UI, and seamlessly connect them as need be.
 
 ## Challenges We faced
 - Working with a huge Large language model was hectic as we couldn't find a good hosting service which was free as well as powerful enough to host our model.
-- Due to lack of time to figure out the issue, we tried a lot of approaches, including going as far as changing the backend framework from Django to Flask.
-- After painstacking debugging, we found the issue which prevented the hosting service from building our model properly, after fixing which we were left with 2 working backend solutions.
+- Due to a lack of time to figure out the issue, we tried a lot of approaches, including going as far as changing the backend framework from Django to Flask.
+- After painstaking debugging, we found the issue which prevented the hosting service from building our model properly, after fixing it we were left with 2 working backend solutions.
 - We have provided both of our backend solutions, along with the frontend source code, for anyone to choose from and build upon.
 
 ## Tech Stack
