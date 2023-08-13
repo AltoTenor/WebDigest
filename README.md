@@ -21,7 +21,8 @@ The Q&A Browser Extension - PageQuery is an innovative tool that enables you to 
 - Backend Host Flask: [View Host](https://huggingface.co/spaces/Th3BossC/qnaBackend/tree/main)
 - Backend Host Django: [View Host](https://huggingface.co/spaces/arshiyahafis/WebDigest/tree/main)
 - Installing the Extension: [Frontend Source code](https://github.com/AltoTenor/WebDigest/tree/main/frontend/README.md)
-- Using the Backend: [Backend Source code](https://github.com/AltoTenor/WebDigest/blob/main/backendCode/README.md)
+- Using the Backend: [Flask](https://github.com/AltoTenor/WebDigest/blob/main/backendCode_flask/README.md)
+[Django](https://github.com/AltoTenor/WebDigest/blob/main/backendFinalBuild_django/README.md)
 
 
 ## Features
