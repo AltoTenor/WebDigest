@@ -1,5 +1,5 @@
 
-![Logo](chandu2.png)
+![Logo](chandu2.png#gh-light-mode-only)
 
 # Table of Contents 
 - [Overview](#overview)
