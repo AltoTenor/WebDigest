@@ -1,6 +1,6 @@
 
 ![Logo](chandu2.png#gh-light-mode-only)
-![Logo](icons8-search-in-browser-100.png#gh-light-mode-only)
+![Logo](dk.png#gh-dark-mode-only)
 
 # Table of Contents 
 - [Overview](#overview)
