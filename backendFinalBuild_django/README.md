@@ -1,4 +1,5 @@
-![Logo](../chandu2.png)
+![Logo](../chandu2.png#gh-light-mode-only)
+![Logo](../dk.png#gh-dark-mode-only)
 
 # Table of contents
 - [Built with](#built-with)
