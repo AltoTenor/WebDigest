@@ -18,14 +18,6 @@
 The Q&A Browser Extension - PageQuery is an innovative tool that enables you to answer questions directly from web pages. With an average limit of 5000 words per web page, you can provide comprehensive and detailed responses. The extension also includes a history of the chat feature, allowing you to revisit previous conversations for reference.
 
 
-## Links
-- Backend Host Flask: [View Host](https://huggingface.co/spaces/Th3BossC/qnaBackend/tree/main)
-- Backend Host Django: [View Host](https://huggingface.co/spaces/arshiyahafis/WebDigest/tree/main)
-- Installing the Extension: [Frontend Source code](https://github.com/AltoTenor/WebDigest/tree/main/frontend/README.md)
-- Using the Backend: [Flask](https://github.com/AltoTenor/WebDigest/blob/main/backendCode_flask/README.md)
-[Django](https://github.com/AltoTenor/WebDigest/blob/main/backendFinalBuild_django/README.md)
-
-
 ## Features
 - **Answer Questions:** Seamlessly provide answers to questions found on web pages. Your responses can be up to 500 words long, ensuring thorough explanations.
 
